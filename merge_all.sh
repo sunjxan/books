@@ -6,6 +6,5 @@ do
         then
             bash merge.sh "${file%?}"
         fi
-        rm -rf "$file"
     fi
 done
